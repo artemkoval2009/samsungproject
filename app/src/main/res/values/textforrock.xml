@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="rock1">Purple Haze</string>
+    <string name="rock2">Whole Lotta Love</string>
+    <string name="rock3">Baba Oirley</string>
+    <string name="rock4">Sympathy For The Devil</string>
+    <string name="rock5">Smoke On The Water</string>
+    <string name="rock6">Bohemian Rhapsody</string>
+    <string name="rock7">Roadhouse Blues</string>
+    <string name="rock8">Hotel California</string>
+    <string name="rock9">Comfortably Numb</string>
+    <string name="rock10">La Grange</string>
+    <string name="rock11">Sweet Child O’ Mine</string>
+    <string name="rock12">Rock You Like A Hurricane</string>
+    <string name="rock13">Tom Sawyer</string>
+    <string name="rock14">I Love Rock N’ Roll</string>
+    <string name="rock15">Sultan Of Swings</string>
+    <string name="rock16">Under Pressure</string>
+    <string name="rock17">Immigrant Song</string>
+    <string name="rock18">Just What I Needed</string>
+    <string name="rock19">The Boys Are Back In Town</string>
+    <string name="rock20">Dreams</string>
+</resources>

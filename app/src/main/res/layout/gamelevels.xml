@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/button_question1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_question"
+
+
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/container1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="36dp">
+
+        <LinearLayout
+            android:id="@+id/container2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <ScrollView
+                android:id="@+id/container4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/button_jazz"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="italic"
+                    android:textSize="20sp"
+                    android:layout_marginRight="35dp"
+                    android:background="@drawable/button_gamelevels"
+                    android:textColor="@color/MistyRose"
+                    android:gravity="center"
+                    android:text="ДЖАЗ" />
+            </ScrollView>
+
+            <Button
+                android:id="@+id/button_rock"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="italic"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                android:layout_marginRight="35dp"
+                android:gravity="center"
+                android:background="@drawable/button_gamelevels"
+                android:textColor="@color/MistyRose"
+                android:text="РОК" />
+
+            <Button
+                android:id="@+id/button_hip_hop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_gamelevels"
+                android:textColor="@color/MistyRose"
+                android:textStyle="italic"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:layout_marginRight="35dp"
+                android:layout_marginTop="10dp"
+                android:text="ХИП-ХОП" />
+
+            <Button
+                android:id="@+id/button_pop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_gamelevels"
+                android:gravity="center"
+                android:layout_marginRight="35dp"
+                android:text="ПОП-МУЗЫКА"
+                android:textColor="@color/MistyRose"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+
+            <LinearLayout
+                android:id="@+id/line1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button_back"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/style_btm_black_press"
+                    android:paddingLeft="5dp"
+                    android:layout_marginTop="50dp"
+                    android:paddingRight="5dp"
+                    android:layout_marginRight="35dp"
+                    android:text="@string/back"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:textSize="24sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Угадай мелодию</string>
+    <string name="play">НАЧАТЬ</string>
+    <string name="back">НАЗАД</string>
+    <string name="jazz">ДЖАЗ</string>
+    <string name="play_misic_on">ПРОСЛУШАТЬ МУЗЫКУ</string>
+    <string name="play_misic_off">ОСТАНОВИТЬ МУЗЫКУ</string>
+    <string name="levels">Выбери верное изображение, прослушав мелодию.\n Вопросы могут повторяться, пока Вы не наберёте 10 баллов.</string>
+    <string name="leveljazzEnd">"Поздравляем, уровень ДЖАЗ пройден!\n
+        А вы знали, что в Луизиане самое большое сосредоточение джазовых музыкантов и инструменталистов в мире."</string>
+    <string name="levelrockend">"Поздравляем, уровень РОК пройден!\n
+        А вы знали, что ни один участник легендарной группы "The Beatles" не знал нотной грамоты."</string>
+    <string name="cont">ПРОДОЛЖИТЬ</string>
+    <string name="End">Вернуться в главное меню</string>
+    <string name="rock">РОК</string>
+    <string name="hiphop">ХИП-ХОП</string>
+    <string name="levelhiphopend">"Поздравляем, уровень ХИП-ХОП пройден!\n
+        А вы знали, что название «хип-хоп» изначально было насмешкой. Так называли членов группы Grandmaster Flash and the Furious Five."</string>
+    <string name="pop">ПОП-МУЗЫКА</string>
+    <string name="levelpopend">"Поздравляем, уровень ПОП-МУЗЫКА пройден!\n
+        А вы знали, что самый продаваемый альбом - это Триллер Майкла Джексона. Его тираж составил аж 65 миллионов экземпляров!"</string>
+</resources>

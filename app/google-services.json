@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "472249565923",
+    "project_id": "datebasejazzquestions",
+    "storage_bucket": "datebasejazzquestions.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:472249565923:android:3e443bb474fdc99fd33bd6",
+        "android_client_info": {
+          "package_name": "com.jazz.musicapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAF9mwytnAKzxyMpa56yOhUYxr2JZnGWpg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
