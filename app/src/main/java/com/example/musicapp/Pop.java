@@ -249,11 +249,9 @@ public class Pop extends AppCompatActivity {
                     }
                     //Если опустил палец - конец
                     if (count == 10) {
-                        //Выход из уровня Jazz
+                        //Выход из уровня Pop
+                        stopMusic();
                         dialogEnd.show();
-                        mp.stop();
-                        mp.reset();
-                        mp.release();
                     } else {
                         numLeft = random.nextInt(array.popsounds.length);
                         img_test.setImageResource(array.img_4[numLeft]);
@@ -347,9 +345,7 @@ public class Pop extends AppCompatActivity {
                     }
                     //Если опустил палец - конец
                     if (count == 10) {
-                        mp.stop();
-                        mp.reset();
-                        mp.release();
+                        stopMusic();
                         dialogEnd.show();
                     } else {
                         numLeft = random.nextInt(array.popsounds.length);
