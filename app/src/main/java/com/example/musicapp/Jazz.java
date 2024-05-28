@@ -249,10 +249,8 @@ public class Jazz extends AppCompatActivity {
                     //Если опустил палец - конец
                     if (count == 10) {
                         //Выход из уровня Jazz
+                        stopMusic();
                         dialogEnd.show();
-                        mp.stop();
-                        mp.reset();
-                        mp.release();
                     } else {
                         numLeft = random.nextInt(array.jazzsounds.length);
                         img_test.setImageResource(array.imgs1[numLeft]);
@@ -346,9 +344,7 @@ public class Jazz extends AppCompatActivity {
                     }
                     //Если опустил палец - конец
                     if (count == 10) {
-                        mp.stop();
-                        mp.reset();
-                        mp.release();
+                        stopMusic();
                         dialogEnd.show();
                     } else {
                         numLeft = random.nextInt(array.jazzsounds.length);
