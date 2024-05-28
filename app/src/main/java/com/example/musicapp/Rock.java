@@ -247,10 +247,8 @@ public class Rock extends AppCompatActivity {
                     //Если опустил палец - конец
                     if (count == 10) {
                         //Выход из уровня Rock
+                        stopMusic();
                         dialogEnd.show();
-                        mp.stop();
-                        mp.reset();
-                        mp.release();
                     } else {
                         numLeft = random.nextInt(array.rocksounds.length);
                         img_test.setImageResource(array.img_2[numLeft]);
@@ -345,10 +343,8 @@ public class Rock extends AppCompatActivity {
                     //Если опустил палец - конец
                     if (count == 10) {
                         //Выход из уровня Rock
+                        stopMusic();
                         dialogEnd.show();
-                        mp.stop();
-                        mp.reset();
-                        mp.release();
                     } else {
                         numLeft = random.nextInt(array.rocksounds.length);
                         img_test.setImageResource(array.img_2[numLeft]);
